@@ -1,0 +1,68 @@
+********************IF*********************************
+Los condicionales generan bifurcaciones en el flujo del programa. 
+Entonces, se conocen como Estructura de Control del Flujo del Programa.
+if (obligatorio) ejecuta un bloque si la condición es True.
+else (opcional y final), ejecuta un bloque si la condición del  if  es False.
+elif  (opcional), permite comprobar múltiples condiciones alternativas a la planteadas en if 
+
+Sintaxis. 
+Dos puntos (:) después de if, elif, else.
+La indentación es crucial, pues no hay llaves. El bloque de código dentro de cada sentencia if, elif, else debe estar indentado con el mismo número de espacios (4 espacios).
+
+
+
+#todo: Ejercicio 1: agregar múltiples condiciones(elif), Califica a un estudiante según su calificación, 
+# con rangos de {
+# +90,  -> # Excelente 🥳
+# +80,  -> # Muy bien 👏
+# +70,  -> # Bien 👍
+# +60,  -> # Suficiente 👌
+# -59 -> # Insuficiente 😞
+# }
+
+
+ #todo: EJERCICIO 2: Condicion compuesta para votar: para determinar si usuario tiene la Nacionalidad y (es mayor de edad o esta emancipado).
+
+
+
+
+
+
+
+
+
+**************FOR*******************
+# **************************CICLOS O LOOP
+# #*****************FOR
+# Recorre o itera sobre una secuencia (list, str, range, etc.) ejecutando un bloque para cada elemento del iterable.
+# Sintaxis:
+# for variable in iterable:
+#     # bloque de código
+# variable: almacena el valor actual de la iteración.
+# iterable: cualquier secuencia como una lista, tupla, cadena o rango.
+
+# *break, continue y pass: se usan en los bucles para alterar el flujo normal del ciclo.
+# break sale del bucle.
+# continue salta a la siguiente iteración.
+# pass no hace nada, solo ocupa un lugar en el código.
+
+
+
+,......
+
+
+
+
+# *break, continue y pass: se usan en los bucles para alterar el flujo normal del ciclo.
+
+......
+
+
+
+
+# #***************** MATRICES Y SU RECORRIDO: FOR ANIDADO
+# Una matriz en Python se representa comúnmente como una lista de listas 
+# (una lista donde cada elemento es otra lista que representa una fila). Para recorrer todos sus elementos con un for, 
+# lo ideal es usar bucles anidados (un for dentro de otro).
+
+.....
